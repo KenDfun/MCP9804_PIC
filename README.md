@@ -1,7 +1,7 @@
 # MCP9804_PIC
 これはマイクロチップ・テクノロジーの温度センサMCP9804をPIC16F1619でコントロールするプログラムです。マイコンボードはPIC16F1619が標準で搭載されているCuriosityボードを使用しています。Curiosityボード上からI2C信号を取り出してMCP9804から温度データを取り出してUartで温度を出力しています。  
-
-![teraterm_capture](https://user-images.githubusercontent.com/2620156/36341141-ff87ede2-142c-11e8-8fad-a0e0a707fca0.gif)
+  
+![mcp9804_pic_term](https://user-images.githubusercontent.com/2620156/36345802-4d30e754-1475-11e8-8377-7fd178dae62d.gif)
 
 ## MCCの設定
 Microchip Code Configurator(MCC)で基本設定を行っています。MCCはEUSARTのみ使用していてMSSPのライブラリは使用していません。使用していない理由は使いにくいのと無駄にメモリを使用していたためです。
