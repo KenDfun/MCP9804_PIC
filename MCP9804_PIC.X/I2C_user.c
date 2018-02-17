@@ -5,8 +5,6 @@
 
 void I2C_UserInit(void)
 {
-    ANSELB = 0;
-    TRISB = 0x70;
     SSPCLKPPS = 0x0E;   //RB6->MSSP:SCL;
     SSPDATPPS = 0x0C;   //RB4->MSSP:SDA;
     RB6PPS = 0x10;   //RB6->MSSP:SCL;
