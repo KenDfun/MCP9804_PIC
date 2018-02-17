@@ -10,8 +10,8 @@ Microchip Code Configurator(MCC)で基本設定を行っています。MCCはEUS
 |未使用|73       | 1393   |
 
 ### PIN設定
-下図のMCC設定画面を参照してください。
-
+下図のMCC設定画面を参照してください。  
+![pin asign](https://user-images.githubusercontent.com/2620156/36339272-06efcbc2-1405-11e8-9d09-4a7464d4cbc9.png)
 
 ## MCP9804コントロール
 MCP9804.cがメインの温度取得、設定コードです。上記に記したようにI2C制御にMCCを使用しなかったためI2C制御はオリジナルで書きました。
